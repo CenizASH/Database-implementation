@@ -1,0 +1,55 @@
+Testing the insertion method:
+Testing the insertion of 1 at the beginning of the table:
+Linked List: 
+1	
+Inserting 1 succeeded
+Testing the insertion of 10 at the end of the table:
+Linked List: 
+1	10	
+Inserting 10 succeeded
+Testing the insertion of 5 in the middle of the table:
+Linked List: 
+1	5	10	
+Inserting 5 succeeded
+Inserting 8, 77, 35, 3 numbers into the table:(Counting as tests)
+Linked List: 
+1	3	5	8	10	35	77	
+
+Testing the remove method:
+Testing the removal of 8 from the middle of the table:
+Linked List: 
+1	3	5	10	35	77	
+Removing 8 succeeded
+Testing the removal of 1 at the beginning of the table:
+Linked List: 
+3	5	10	35	77	
+Removing 1 succeeded
+Testing the removal of 77 at the beginning of the table:
+Linked List: 
+3	5	10	35	
+Removing 77 succeeded
+
+Testing the search method:
+Testing the search method for value 5 in the Middle of the table:
+Successfully found 5
+Testing the search method for value 3 at the beginning of the table:
+Successfully found 3
+Testing the search method for value 35 at the end of the table:
+Successfully found 35
+Testing the search method for a non-existing value 100 in the table:
+Successfully returned false since 100 doesn't exist in the table
+
+Testing the firstItem method:
+traversalNode was set to the first item in table
+
+Testing the nextItem method:
+traversalNode was set to the next item in table
+
+Testing clear table method
+Linked List: 
+TABLE IS EMPTY
+Table is cleared
+
+Number of tests ran = 17
+Number of tests succeeded = 17
+END OF TESTING 
